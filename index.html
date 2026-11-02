@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Natelia Keling | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">PORTFOLIO</a>
+            <button class="hamburgerBtn"
+                    id="hamburger"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <button id="themeToggle" class="theme-btn">
+                        Dark Mode
+                    </button>
+                </li>
+
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About Me</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- HOME / HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+
+                <!-- Profile Picture -->
+                <div class="profile-pic-container">
+                    <img src="profile.jpeg"
+                         alt="Natelia Keling Profile Picture"
+                         class="profile-img">
+                </div>
+
+                <p class="welcome-text">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span class="highlight">Natelia Keling Anak Luta</span></h1>
+
+                <div class="marquee-container">
+                    <p class="moving-text">
+                        Currently available for internship program!
+                    </p>
+                </div>
+
+                <p class="hero-description">A passionate Multimedia Computing student that love to learn more about technology, creativity and web development.</p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn primary-btn"> About Me</a>
+                    <a href="#projects" class="btn secondary-btn"> View Projects</a>
+                    <a href="#contact" class="btn secondary-btn"> Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-intro-text">
+                    <p>
+                        Welcome to my digital portfolio! I am currently pursuing a Bachelor in Computer Science (Multimedia Computing) with Honours at University Malaysia Sarawak (UNIMAS). 
+                        Through my studies,I have developed an interest in front-end development, UI/UX design and interactive multimedia. 
+                        I really enjoy exploring new technologies and improving my skills by working on creative projects.
+                    </p>
+                </div>
+
+                <!-- EDUCATION AND FOCUS AREAS -->
+                <div class="cards-grid">
+                    <div class="info-card">
+                        <h3>Education</h3>
+                        <p>
+                            - Bachelor in Computer Science (Multimedia Computing) with Honours<br>
+                            - Universiti Malaysia Sarawak (UNIMAS)<br>
+                            - GPA: 2.96 / 4.0
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Focus Areas</h3>
+                        <p>
+                            - Front-End Web Development<br>
+                            - UI/UX Design Prototyping<br>
+                            - Interactive Design<br>
+                            - Database Systems
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SKILLS SECTION -->
+                <div class="skills-section-container">
+                    <h3 class="skills-title">
+                        Skills &amp; Technology
+                    </h3>
+
+                    <p class="section-subtitle">
+                        Technologies and tools I work with
+                    </p>
+
+                    <div class="skills-cards-grid">
+                        <div class="skill-card">
+                            <span class="skill-bubble">HTML5 / CSS3</span>
+                            <span class="skill-bubble">JavaScript</span>
+                            <span class="skill-bubble">UI/UX Prototyping</span>
+                            <span class="skill-bubble"> MySQL / Database</span>
+                            <span class="skill-bubble">Graphic Design</span>
+                            <span class="skill-bubble"> AppSheet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section bg-alt">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <p class="section-subtitle">
+                    Several projects and practice work that i work with
+                </p>
+
+                <div class="projects-grid">
+
+                    <!-- PROJECT 1 -->
+                    <div class="project-card">
+                        <img src="project1.png"
+                             alt="Kuching Urban Transportation System Mobile App"
+                             class="project-image">
+
+                        <div class="project-info">
+                            <h3> Kuching Urban Transportation System(KUTS) Mobile App</h3>
+                            <p>
+                                A mobile app prototype designed using Figma to improve the user experience of the upcoming Kuching Urban Transportation System (KUTS).
+                            </p>
+                            <span class="project-note">UI/UX prototyping </span>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2 -->
+                    <div class="project-card">
+                        <img src="project2.jpg"
+                             alt="Sarawak Heritage Online Auction Database System"
+                             class="project-image">
+
+                        <div class="project-info">
+                            <h3>The Sarawak Heritage Online Auction(SHAA) Database System </h3>
+                            <p>
+                                A database-driven online auction platform that allows sellers and buyers to buy, sell and bid on Sarawak heritage items through an organized digital system.
+                            </p>
+                            <span class="project-note">MySQL / Database</span>
+                        </div>
+                    </div>
+
+
+                    <!-- PROJECT 3 -->
+                    <div class="project-card">
+                        <img src="project3.jpg"
+                             alt="Bear Run The Honey Trial Game"
+                             class="project-image">
+                        <div class="project-info">
+                            <h3>Bear Run: The Honey Trial Game</h3>
+                            <p>
+                                A 2D game developed where players guide a bear through five challenging levels by avoiding the bees and butterflies while collecting honey jars to deliver to the queen.
+                            </p>
+                            <span class="project-note">Computer Graphics / 2D Game Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Have a question or want to connect? Send me a message below or send a direct email.</p>
+
+                <div class="contact-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">
+                                Full Name
+                            </label>
+                            <input type="text"
+                                   id="name"
+                                   name="name"
+                                   required
+                                   placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   required
+                                   placeholder="Enter your email (example@gmail.com)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message"> Message </label>
+                            <textarea id="message"
+                                      name="message"
+                                      rows="5"
+                                      required
+                                      placeholder="Type your message here"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn">Submit Message</button>
+                        <div id="successMessage" class="success-message" role="status" aria-live="polite">
+                            <span class="success-icon">✓</span>
+                            <span>Message sent!</span>
+                        </div>
+
+                    </form>
+
+                    <p class="email-note">You can also contact me by email:
+                        <a href="mailto:nateliakeling14@gmail.com">nateliakeling14@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PROJECT IMAGE MODAL -->
+    <div id="imageModal" class="image-modal">
+        <button id="closeModal"
+                class="close-modal"
+                aria-label="Close enlarged image">
+            &times;
+        </button>
+
+        <img id="modalImage"
+             class="modal-content"
+             alt="Enlarged project image">
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy;
+            <span id="currentYear">2026</span> Natelia Keling Anak Luta.
+        </p>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="scrollTopBtn"
+            aria-label="Scroll to top">
+        &uarr;
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
